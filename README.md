@@ -7,6 +7,11 @@ I publish Apify Actors for outbound and go to market teams. Each one returns peo
 | [LinkedIn New Hires Finder](linkedin-new-hires-finder.md) | LinkedIn New Hires Finder is an Apify Actor that takes a company website, name, or LinkedIn URL and returns decision makers who started at that company recently, with the month they started and the company they left, only when the current-employer match clears the bar. | [Apify Store](https://apify.com/agnes.developer.queen/linkedin-new-hires-finder) |
 | [LinkedIn People Search Scraper](linkedin-people-search-scraper.md) | LinkedIn People Search Scraper is an Apify Actor that finds public LinkedIn profiles by job title, company and location, and charges only for people whose own headline confirms the title and the company you searched. | [Apify Store](https://apify.com/agnes.developer.queen/linkedin-people-search-scraper) |
 | [Google Ads Transparency Scraper](google-ads-transparency-scraper.md) | Google Ads Transparency Scraper is an Apify Actor that pulls the ads a company runs on Google from the Ads Transparency Center, by website domain or advertiser name, and returns the ad itself, its first and last shown dates, and the countries where it ran. | [Apify Store](https://apify.com/agnes.developer.queen/google-ads-transparency-scraper) |
+| [LinkedIn Ad Library Scraper](linkedin-ad-library-scraper.md) | LinkedIn Ad Library Scraper is an Apify Actor that pulls the ads a company runs on LinkedIn from the public Ad Library, by company name, keyword or payer, and returns the ad itself, who paid for it, and, where LinkedIn publishes them, its run dates, impressions by country and targeting. | [Apify Store](https://apify.com/agnes.developer.queen/linkedin-ad-library-scraper) |
+
+## Full documentation
+
+The code for each Actor lives in a private repo. Its README and build notes are published here under [`docs/`](docs/), one folder per Actor: input fields, output schema, measured runs, costs and the pricing history. `sync-docs.sh` copies them in from the code repos.
 
 ## How the charge bar works
 
