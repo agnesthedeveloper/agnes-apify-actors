@@ -96,3 +96,9 @@ Second pricing record, from 07:17 UTC: `ad` $0.003 -> **$0.0025**, `actor-start`
 Reason: the Store median for "google ads transparency" is $1.50 per 1,000 ads; the flat leader charges $2 plus $3 for
 detail, so $5 for what this actor ships in one event. $2.50 is 1.25x the leader's base and half its base plus detail.
 Cost is about $0.0002 per ad.
+
+## Published
+
+2026-09-25 16:13 UTC: `isPublic` true on the owner's go, build 0.1.10, `actor-start` $0.00005 + `ad` $0.0025. Listing PUT: seoTitle "Google Ads Transparency Scraper, Competitor Ads and Dates", seoDescription 161 characters, categories MARKETING + LEAD_GENERATION. Sent as two PUTs (isPublic + seoTitle + categories, then seoDescription); the combined PUT with description and seoDescription in one body did not persist.
+
+Store rank baseline, day 0: not in the top 50 on "google ads transparency" (47 returned). Re-check day 14 (2026-10-09) and day 30 (2026-10-25). If day 14 shows users but no payers, cut the price per the plan.

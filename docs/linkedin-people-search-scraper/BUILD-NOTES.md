@@ -104,3 +104,9 @@ paying users, so it took effect at once. Reason: a Store scan of 32 rivals with 
 per-row price at $5 per 1,000 and the 75th percentile at $10; only two enrichment products charge $20. $15 sits above
 every per-row rival and under those two. The start fee matches memo23, the phrase leader, and covers the $0.005 to
 $0.02 of Google pages a zero-match run burns. Measured cost per match stays about $0.0068.
+
+## Published
+
+2026-09-25 16:12 UTC: `isPublic` true on the owner's go, build 0.1.10, `actor-start` $0.005 + `matched-profile` $0.015. Listing PUT: seoTitle "LinkedIn People Search Scraper by Title, Company, Location", seoDescription 159 characters, categories LEAD_GENERATION + SOCIAL_MEDIA. A single PUT carrying isPublic, description, seoDescription and categories together failed silently; seoTitle + categories + isPublic in one PUT and seoDescription in a second both landed.
+
+Store rank baseline, day 0: 17 of 44 returned on "linkedin people search". Re-check day 14 (2026-10-09) and day 30 (2026-10-25). Open quality question still stands: headline-only matching passed 4 strangers as CEO of Stripe/Asana in the priced run.
