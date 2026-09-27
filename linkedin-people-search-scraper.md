@@ -1,5 +1,7 @@
 # LinkedIn People Search Scraper
 
+For companies advertising open roles, [LinkedIn Jobs Scraper](linkedin-jobs-scraper.md) provides job descriptions and recurring new-job feeds.
+
 LinkedIn People Search Scraper is an Apify Actor that finds public LinkedIn profiles by job title, company and location, and charges only for people whose own headline confirms the title and the company you searched.
 
 ## Pricing

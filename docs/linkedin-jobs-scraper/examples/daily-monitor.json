@@ -1,0 +1,13 @@
+{
+  "keywords": "software engineer",
+  "location": "United States",
+  "postedWithinDays": 1,
+  "titleIncludes": [
+    "engineer"
+  ],
+  "titleExcludes": [
+    "intern"
+  ],
+  "maxJobs": 100,
+  "onlyNew": true
+}
