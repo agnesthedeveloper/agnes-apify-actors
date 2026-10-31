@@ -4,7 +4,7 @@ LinkedIn New Hires Finder is an Apify Actor that takes a company website, name, 
 
 ## Pricing
 
-The Actor is free on Apify at the moment. Pay per event pricing is planned, with a start fee and a charge only for a decision maker who is currently at the company you named and whose start month sits inside your tenure window. Rows that fail that bar will stay free.
+Pay per event: $0.50 per new hire, plus a $0.00005 start fee per run. A row is charged only when the person is a decision maker currently at the company you named and their start month sits inside your tenure window. Rows that fail that bar are still delivered, with `charged: false`, at no cost. Every Apify account gets $5 of free platform credit a month, which covers a first run.
 
 ## The differentiator
 
